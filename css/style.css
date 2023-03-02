@@ -1,0 +1,241 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background: cadetblue;
+}
+.container_todo{
+	margin: 0 auto;
+	padding: 50px 0px;
+	width: 500px;
+	height: 1000px;
+	text-align: center;
+}
+.input_btn_wrapper{
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 25px 13px 5px grey;
+}
+.input_wrapper{
+	border: 10px solid orange;
+	border-width: 10px 5px 10px 10px;
+	border-radius: 15px 0px 0px 15px;
+	background: orange;
+}
+.btn_wrapper{
+	border: 10px solid orange;
+	border-width: 10px 10px 10px 5px;
+	border-radius: 0px 15px 15px 0px;
+	background: orange;
+}
+.input{
+	width: 400px;
+	height: 49px;
+	border: none;
+	font-size: 20px;
+	padding-left: 10px;
+	outline: none;
+	
+}
+.btn{
+	width: 80px;
+	height: 52px;
+	font-size: 15px;
+	font-weight: 600;
+	border: none;
+	background: #71D22CFF;
+	color: white;
+	border-radius: 10px;
+}
+.todo_wrapper{
+	width: 520px;
+	height: 50px;
+	background: orange;
+	display: flex;
+	justify-content: space-between;
+	line-height: 46px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin: 5px;
+	border-radius: 10px;
+}
+.del{
+	height: 35px;
+	background: red;
+	border-radius: 10px;
+   border: none;
+   color: white;
+ }
+.chbox{
+	width: 30px;
+	height: 30px;
+}
+.buttns_wrapper{
+	display: flex;
+	padding: 7px;
+}
+.doneTask{
+	background: grey;
+}
+.opacityTask{
+	animation: optyTask 1s;
+}
+
+@keyframes optyTask{
+   from{
+   	opacity: 1;
+   }
+   to{
+   	opacity: 0;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*html body{
+	margin: 0;
+	background: cadetblue;
+	font-family: 'Oswald', sans-serif;
+}
+.container{
+	width: 500px;
+	height: 500px;
+	margin: 30px auto;
+	display: block;
+	text-align: center;
+}
+.inputButtonWraper{
+	display: flex;
+	justify-content: center;
+	}
+.inputTask input{
+	width: 390px;
+	height: 29px;
+	border: none;
+}
+.buttonTask button{
+	background: #14EA16FF;
+	color: white;
+   height: 31px;
+   width: 85px;
+   border: none;
+}
+.inputTask{
+	border: 10px solid orange;
+	border-width: 10px 5px 10px 10px;
+	border-radius: 10px 0px 0px 10px;
+	
+}
+.buttonTask{
+	border: 10px solid orange;
+	border-width: 10px 10px 10px 5px;
+	border-radius: 0px 10px 10px 0px;
+}
+.todo-allItems{
+	margin: 5px 0px;
+	width: 500px;
+	height: 50px;
+	background: orange;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	line-height: 50px;
+}
+.discription{
+	margin: 0px 10px;
+	color: white;
+}
+.todo-buttons{
+	margin: 0px 10px;
+	display: flex;
+	align-items: center;
+}
+.btn-complete{
+	width: 20px;
+	height: 20px;
+}
+.btn-delete{
+	background: #FC1902FF;
+	color: white;
+	border: none;
+	width: 51px;
+	height: 20px;
+	border-radius: 5px;
+}
+.btn-delete:hover{
+	background: #A12A12FF;
+}
+#buttonPoint:hover{
+   background: green;
+}
+.checked{
+	background: gray;
+	opacity: 0.9;
+}
+.deletion{
+animation: opacity 1s ease-in-out;
+}
+@keyframes opacity{
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0;
+	}
+}
+.doneTask{
+	background: grey;
+	animation: opt 1s ease-in-out;
+}
+.opacityTask{
+	animation: opacity 1s;
+}*/
